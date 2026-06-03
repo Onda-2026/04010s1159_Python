@@ -30,3 +30,5 @@
 
 
 # ここより下に解答を記載する。
+for num in range(1,11):			# 1-10まで繰り返す
+    print('This is a Python sample.')	# 表示
