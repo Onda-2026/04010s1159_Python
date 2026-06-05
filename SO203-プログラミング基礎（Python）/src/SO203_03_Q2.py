@@ -23,3 +23,5 @@ He said "Hello World!!".
 
 
 # ここより下に解答を記載する。
+str='He said "Hello World!!".'
+print(str)
