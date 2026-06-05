@@ -28,7 +28,12 @@
 
 
 # ここより下に解答を記載する。
-int_02=0b1000
-int_16=0x1000
-float_1=0.56
-float_2=7.8e9
+int_02 = 0b1000
+int_16 = 0x1000
+float_1 = 0.56
+float_2 = 7.8e9
+
+print(int_02)
+print(int_16)
+print(float_1)
+print(float_2)
