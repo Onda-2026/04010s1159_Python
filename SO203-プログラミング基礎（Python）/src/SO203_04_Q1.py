@@ -26,3 +26,10 @@
 
 
 # ここより下に解答を記載する。
+integer_part=11//3
+mod=11%3
+result=2**4
+
+print(integer_part)
+print(mod)
+print(result)
