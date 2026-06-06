@@ -26,3 +26,5 @@ two
 
 
 # ここより下に解答を記載する。
+list_str=['one','two','three','four']
+print(list_str[1])
