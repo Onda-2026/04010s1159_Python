@@ -30,3 +30,12 @@ True
 
 
 # ここより下に解答を記載する。
+a = 6
+b = 7
+c = {2, 4, 6, 8}
+
+print(a in c)
+print(a & b)
+print(a ^ b)
+print(~a)
+print(a<<3)
