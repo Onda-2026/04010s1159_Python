@@ -22,3 +22,9 @@ P.11「break文」のソースコードを以下に変更してください。
 
 
 # ここより下に解答を記載する。
+list_num=[5,6,7,8,9]
+
+for num in list_num:
+    if num % 5== 0:
+        print(num)
+        break
