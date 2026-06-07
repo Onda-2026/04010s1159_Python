@@ -28,5 +28,5 @@
 # ここより下に解答を記載する。
 list_num=[1,2,3,4,5]
 
-list_num_1=[x * 5 for x in list_num]
-print(list_num_1)
+list_num_3=[x * 5 for x in list_num]
+print(list_num_3)
