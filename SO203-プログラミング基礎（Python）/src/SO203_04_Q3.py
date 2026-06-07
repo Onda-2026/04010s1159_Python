@@ -24,3 +24,5 @@ OK!!OK!!OK!!OK!!OK!!
 
 
 # ここより下に解答を記載する。
+print('Good'+'Morning')
+print('OK!!'*5)
