@@ -32,5 +32,5 @@ P.7「range関数を使ったfor文」のソースコードを以下に変更し
 
 
 # ここより下に解答を記載する。
-for num in range(10,20):
+for num in range(10,21):
     print(num)
