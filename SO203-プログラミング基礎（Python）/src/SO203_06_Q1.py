@@ -23,3 +23,10 @@ P.5「組み込み関数」のソースコードを作成してください。
 
 
 # ここより下に解答を記載する。
+text = input('何か入力してください。＞')
+
+text_len = len(text)
+
+print('「%s」は、%d文字です。'%(text, text_len))
+print('「{}」は、{}文字です。'.format(text, text_len))
+
