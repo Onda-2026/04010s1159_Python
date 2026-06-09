@@ -27,6 +27,7 @@ text = input('何か入力してください。＞')
 
 text_len = len(text)
 
-print('「%s」は、%d文字です。'%(text, text_len))
+print('「%s」は、%d文字です。' % (text, text_len))
 print('「{}」は、{}文字です。'.format(text, text_len))
+print(f'「{text}」は、{text_len}文字です。')
 
