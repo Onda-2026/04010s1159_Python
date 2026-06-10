@@ -22,3 +22,9 @@
 
 
 # ここより下に解答を記載する。
+def minus(num1, num2):
+    x = num1 - num2
+    return x
+
+num = minus(7.8, 3.4)
+print(num)
