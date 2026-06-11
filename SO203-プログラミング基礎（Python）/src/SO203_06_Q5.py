@@ -22,3 +22,7 @@
 
 
 # ここより下に解答を記載する。
+import math
+
+num = math.sqrt(21)
+print(f"{num:.3f}")	
