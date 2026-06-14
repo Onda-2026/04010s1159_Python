@@ -40,3 +40,36 @@ B高校のテニス部に入っています。
 
 
 # ここより下に解答を記載する。
+class Student:
+    # クラス変数の定義
+    school = 'A高校'
+
+    # コンストラクタの定義
+    def __init__(self, name, club, subject):
+        # インスタンス変数の定義
+        self.name = name
+        self.club = club
+        self.subject = subject
+
+    # メソッドの定義
+    def introduce(self):
+        text = f'私の名前は{self.name}です。\n'
+        text += f'{self.school}の{self.club}に入っています。\n'
+        text += f'私の好きな教科は{self.subject}です。\n'
+        return text
+
+
+# インスタンス化
+yamada = Student('山田', '野球部', '国語')
+tanaka = Student('田中', 'テニス部', '数学')
+
+# メソッドの呼び出し
+print(yamada.introduce())
+print(tanaka.introduce())
+
+# クラス変数の再設定
+Student.school = 'B高校'
+
+# メソッドの呼び出し
+print(yamada.introduce())
+print(tanaka.introduce())
