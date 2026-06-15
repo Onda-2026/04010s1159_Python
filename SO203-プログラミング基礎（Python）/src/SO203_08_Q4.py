@@ -29,8 +29,8 @@ P.12「ファイルを書き出す（2）」のソースコードを以下に変
 file = open('SO203_08_Q4_output.txt', 'a')
 
 # ファイルに書き出す
-file.write('ハロー￥n')
-file.write('パイソン') 
+file.write('\n')
+file.write('パイソン')
 
 # ファイルを閉じる
 file.close()
