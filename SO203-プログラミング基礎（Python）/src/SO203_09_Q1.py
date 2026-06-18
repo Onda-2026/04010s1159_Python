@@ -21,3 +21,5 @@
 
 
 # ここより下に解答を記載する。
+result = sum(range(1, 101))
+print(result)
