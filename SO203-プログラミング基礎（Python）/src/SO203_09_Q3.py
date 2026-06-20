@@ -24,4 +24,4 @@
 # ここより下に解答を記載する。
 numbers = [2, 13, 99, 20, 28, 64, 33, 73, 20, 1, 73]
 numbers.sort()
-print(numbers)
+print(*numbers, sep=', ')
