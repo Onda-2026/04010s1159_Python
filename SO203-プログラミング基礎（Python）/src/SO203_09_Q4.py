@@ -27,3 +27,10 @@ fedcba
 
 
 # ここより下に解答を記載する。
+import sys
+
+if len(sys.argv) != 2:
+    print('コマンドライン引数が不正です。')
+else:
+    text = sys.argv[1]
+    print(text[::-1])
