@@ -43,3 +43,21 @@ FizzBuzz
 
 
 # ここより下に解答を記載する。
+import sys
+
+# コマンドライン引数の数を確認
+if len(sys.argv) != 3:
+    print('コマンドライン引数が不正です。')
+else:
+    start = int(sys.argv[1])
+    end = int(sys.argv[2])
+
+    for num in range(start, end + 1):
+        if num % 15 == 0:
+            print('FizzBuzz')
+        elif num % 3 == 0:
+            print('Fizz')
+        elif num % 5 == 0:
+            print('Buzz')
+        else:
+            print(num)
